@@ -12,7 +12,7 @@ body {
   background-image: url(./pics/hot.jpg);
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease;
+  transition: 0.4s ease;
 }
 
 .App.cold {
@@ -24,15 +24,11 @@ body {
   background-repeat: repeat;
 }
 
-.App.snow {
-  background-image: url(./pics/snowing-icegif.gif);
+.App.drizzle {
+  background-image: url(./pics/drizzle.gif);
   background-repeat: repeat;
 }
 
-.App.cloud {
-  background-image: url(./pics/EmotionalOnlyGoldfinch-size_restricted.gif);
-  background-repeat: repeat;
-}
 
 main {
   min-height: 100vh;
@@ -99,4 +95,10 @@ main {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
+}
+
+.weather-box .description {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
 }
